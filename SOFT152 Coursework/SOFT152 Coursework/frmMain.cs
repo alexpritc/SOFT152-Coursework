@@ -76,13 +76,15 @@ namespace SOFT152_Coursework
                 fileName = theDialog.FileName.ToString();
             }
 
-            // Read in the data from the chosen file.
-            Data.ReadLocations();
+            if (fileName != null)
+            {
+                // Read in the data from the chosen file.
+                Data.ReadLocations();
 
-            // Updates the UI.
-            LoadItemsInto_ComboBoxLocations();
-            Update_FileLoaded();
-
+                // Updates the UI.
+                LoadItemsInto_ComboBoxLocations();
+                Update_FileLoaded();
+            }
         }
 
         // Tools --> About
