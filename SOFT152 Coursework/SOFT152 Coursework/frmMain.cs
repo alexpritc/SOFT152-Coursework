@@ -72,7 +72,11 @@ namespace SOFT152_Coursework
             InitializeComponent();
         }
 
+        // File --> New
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
+        }
 
         // File --> Open...
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -94,6 +98,18 @@ namespace SOFT152_Coursework
                 LoadItemsInto_ComboBoxLocations();
                 Update_FileLoaded();
             }
+        }
+
+        // File --> Save As...
+        private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // File --> Save
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
 
         // Tools --> About
@@ -252,6 +268,21 @@ namespace SOFT152_Coursework
 
         }
 
+
+
+        // Clear All.
+        private void Clear_All()
+        {
+
+            comboBoxLocations.Items.Clear();
+            comboBoxYears.Items.Clear();
+            comboBoxMonths.Items.Clear();
+
+            Clear_LocationDetails();
+            Clear_YearDetails();
+            Clear_MonthDetails();
+        }
+
         // Clears the location details.
         private void Clear_LocationDetails()
         {
@@ -338,9 +369,5 @@ namespace SOFT152_Coursework
             Update_MonthDetails(selectedMonth);
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
