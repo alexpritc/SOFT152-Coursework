@@ -256,7 +256,7 @@ namespace SOFT152_Coursework
         // Clears the year details.
         private void Clear_YearDetails()
         {
-            lblYearSelected.Text = "N/A";
+            lblYearSelected.Text = "No Year Selected";
 
             lblYearDATA.Text = "N/A";
 
@@ -266,7 +266,7 @@ namespace SOFT152_Coursework
         // Clears the month details.
         private void Clear_MonthDetails()
         {
-            lblMonthSelected.Text = "N/A";
+            lblMonthSelected.Text = "No Month Selected";
 
             lblMonthDATA.Text = "N/A";
 
