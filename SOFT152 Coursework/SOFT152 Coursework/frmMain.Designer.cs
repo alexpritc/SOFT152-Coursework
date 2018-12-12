@@ -107,7 +107,7 @@
             this.menuStripFile.Location = new System.Drawing.Point(0, 0);
             this.menuStripFile.Name = "menuStripFile";
             this.menuStripFile.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
-            this.menuStripFile.Size = new System.Drawing.Size(1338, 24);
+            this.menuStripFile.Size = new System.Drawing.Size(1234, 24);
             this.menuStripFile.TabIndex = 4;
             this.menuStripFile.Text = "File";
             // 
@@ -615,8 +615,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1338, 723);
+            this.ClientSize = new System.Drawing.Size(1234, 723);
             this.Controls.Add(this.lblNumberOfLocationsInFile);
             this.Controls.Add(this.lblFileLoaded);
             this.Controls.Add(this.btnShowGraph);
@@ -629,6 +628,7 @@
             this.MainMenuStrip = this.menuStripFile;
             this.Name = "frmMain";
             this.Text = "MET Application";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStripFile.ResumeLayout(false);
             this.menuStripFile.PerformLayout();
             this.groupBoxLocations.ResumeLayout(false);

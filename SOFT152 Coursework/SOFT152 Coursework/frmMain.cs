@@ -30,6 +30,8 @@ namespace SOFT152_Coursework
         /// </summary>
         public string monthAsString;
 
+
+
         /// <summary>
         /// Index of current selected Location.
         /// </summary>
@@ -44,6 +46,8 @@ namespace SOFT152_Coursework
         /// Index of the current selected Month.
         /// </summary>
         public int selectedMonth;
+
+
 
         /// <summary>
         /// All the years in the current selected Location.
@@ -329,5 +333,9 @@ namespace SOFT152_Coursework
             Update_MonthDetails(selectedMonth);
         }
 
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
