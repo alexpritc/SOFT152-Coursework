@@ -82,7 +82,6 @@ namespace SOFT152_Coursework
             theDialog.Filter = "TXT files|*.txt";
             if (theDialog.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("File opened at: " + theDialog.FileName.ToString());
                 fileName = theDialog.FileName.ToString();
             }
 
