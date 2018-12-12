@@ -60,6 +60,12 @@ namespace SOFT152_Coursework
         MonthlyObservations[] currentYearsMonths;
 
 
+        /// <summary>
+        /// Instance of frmAbout.
+        /// </summary>
+        frmAbout aboutForm = new frmAbout();
+
+
 
         public frmMain()
         {
@@ -94,7 +100,7 @@ namespace SOFT152_Coursework
         // Tools --> About
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            aboutForm.Show();
         }
 
 

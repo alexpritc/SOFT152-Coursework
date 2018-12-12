@@ -17,9 +17,10 @@ namespace SOFT152_Coursework
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        // Hides frmAbout when the Ok button is clicked.
+        private void btnOk_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
     }
 }
